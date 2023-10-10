@@ -1,0 +1,92 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="http://127.0.0.1:5500/pagina_principal.html">Página Principal</a></li>
+            </ul>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Sobre_Clinica.html">Sobre a Clínica</a></li>
+            </ul>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Horario_atendimento.html">Horário de Atendimento</a></li>
+            </ul>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img  width="1000" height="250" src="Terceira_Pagina1.jpg">
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content"><br><br>
+                <table align="center">
+                <thead>
+                    <tr>
+                        <th>Serviços</th>
+                        <th>Segunda a Sexta</th>
+                        <th>Sábado</th>
+                        <th>Domingo e Feriados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="1">
+                        <td>Nutricionista</td>
+                        <td>08h - 19h</td>
+                        <td>09h - 14h</td>
+                        <td>    -    </td>
+                    </tr>
+                    <tr>
+                        <td>Nutricionista Esportivo</td>
+                        <td>08h - 18h</td>
+                        <td>09h - 12h</td>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td>Psicologo</td>
+                        <td>07h - 17h</td>
+                        <td>09h - 13h</td>
+                        <td>10h - 13h</td>
+                    </tr>
+                </tbody>
+                </table>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+            <div class="footer">
+                <label>Endereço: Av. Bosque da Saúde, 240 - Vila da Saúde, São Paulo - SP, 04141-110</label><br>
+                <label>Telefone: 2337:5598</label>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
